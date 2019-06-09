@@ -23,4 +23,8 @@
 hs_err_pid*
 
 # Distribution (.jar)
-dist/* 	
+.classpath
+.project
+.settings/*
+dist/*
+target/*
