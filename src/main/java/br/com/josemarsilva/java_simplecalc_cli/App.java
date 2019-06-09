@@ -15,9 +15,10 @@ public class App
     	CLI cli = new CLI(args);
     	
     	// new Calculator
-    	Calculator calculator = new Calculator();
+    	Calculator calculator= new Calculator();
     	
-    	System.out.println(cli.getExpression());
+    	// Calculate expression
+    	System.out.println(calculator.evaluteExpression(cli.getExpression()));
     	
     }
 }

@@ -22,43 +22,20 @@ This is repository of the project **java-simplecalc-cli**.
 ![ClassDiagram-Context.png](./doc/ClassDiagram-Context.png) 
 
 ### 2.4. Branch Strategy Workflow
+Branch:
+* `master`: pronto para produção
+* `develop`: último desenvolvimento pronto para produção
 
-![BranchStrategyWorkflow-Context.png](./doc/BranchStrategyWorkflow-Context.png) 
-
-#### 2.4.1. Branches: master, develop, feature, release e hotfix
-
-#### a. master
-  * pronto para produção
-  * vive "para sempre"
-
-#### b. develop
-  * último desenvolvimento pronto para produção
-  * criado a partir da __master__
-
-#### c. feature
-  * suporte a funcionalidade
-  * mais comum e familiar às pessoas porque elas normalmente trabalham nesta branch
-  * criado a partir da __develop__
-  * deve finalizar com merge em __develop__;
-
-#### d. release
-  * suporte a preparação do trabalhao que irá para próxima versão
-  * criado a partir da __develop__
-  * deve finalizar com merge em __develop__ e __master__
-  * convenção de nomes: __release-*__
-
-#### e. hotfix
-  * mudanças críticas em produção
-  * criado a partir da __master__
-  * deve finalizar com merge em __master__ e __develop__
-  * convenção de nomes: __hotfix-*__
+Consulte todos detalhes da [estratégia de branches e workflow](https://github.com/josemarsilva/eval-git#38-estrat%C3%A9gia-de-gerenciamento-de-branches) deste projeto.
 
 
 ## 3. Project
 
 ### 3.1. Preconditions
 
-* n/a
+* Java JDK 1.8 (jar file includes runnable)
+* Eclipse (version Neon recommended)
+* Apache Maven 3.6 (recommended > 3.3)
 
 
 ### 3.2. Guide for Developers
@@ -75,10 +52,16 @@ This is repository of the project **java-simplecalc-cli**.
 
 ### 3.4. Guide for Test
 
-* n/a
+The following command line runs JUnit tests.
+
+```bat
+C:\..\java-simplecalc-cli> mvn clean test
+```
 
 
 ### 3.5. Guide for Deploy
+
+The following command line builds a runnable (.jar) in `.\target\java-simplecalc-cli-jar-with-dependencies.jar`
 
 ```bat
 C:\..\java-simplecalc-cli> mvn clean compile package assembly:single
@@ -87,7 +70,13 @@ C:\..\java-simplecalc-cli> mvn clean compile package assembly:single
 
 ### 3.6. Guide for Demonstration
 
-* n/a
+The following command line runs some demonstrations examples
+
+```bat
+C:\..\java-simplecalc-cli> REM O resultado da expressão 1 + 2 * 3 / 3 = 2
+C:\..\java-simplecalc-cli> java -jar .\target\java-simplecalc-cli-jar-with-dependencies 1 + 2 * 3 / 3
+2 
+```
 
 
 ### 3.7. Patterns, Standard, Conventions and Best Practices

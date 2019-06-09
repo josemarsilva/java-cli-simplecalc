@@ -12,7 +12,7 @@ import org.apache.commons.cli.ParseException;
 public class CLI {
 	
 	/*
-	 * private final message constants ...
+	 * private final message constants
 	 */
 	private static final String JAVASIMPLECALC= new String("java-simplecalc-cli [options] [expression]\n" 
 			+ "Java Simple Calculator Command Line - v.2019.06.08\n"
@@ -22,7 +22,7 @@ public class CLI {
 			+ "Options:");
 	
 	/*
-	 * private properties ...
+	 * private properties
 	 */
 	private CommandLine cmd;
 
