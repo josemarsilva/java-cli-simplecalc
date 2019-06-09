@@ -19,7 +19,7 @@ This is repository of the project **java-simplecalc-cli**.
 
 ### 2.3. Packages and Class Class Diagram ###
 
-* n/a
+![ClassDiagram-Context.png](./doc/ClassDiagramDiagram-Context.png) 
 
 
 ## 3. Project ##
@@ -63,4 +63,7 @@ This is repository of the project **java-simplecalc-cli**.
 
 ## I - References ##
 
-* https://pplware.sapo.pt/tutoriais/apache-hadoop-instalacao-ubuntu/
+* [How to write doc comment for JavaDoc Tool](https://www.oracle.com/technetwork/articles/javase/index-137868.html)
+* [Apache Commons CLI usage](https://commons.apache.org/proper/commons-cli/usage.html)
+* [Udo Java - Expression Evaluation](https://udojava.com/2012/12/16/java-expression-parser-evaluator/)
+* [StringUtils](https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringUtils.html)
