@@ -66,4 +66,5 @@ This is repository of the project **java-simplecalc-cli**.
 * [How to write doc comment for JavaDoc Tool](https://www.oracle.com/technetwork/articles/javase/index-137868.html)
 * [Apache Commons CLI usage](https://commons.apache.org/proper/commons-cli/usage.html)
 * [Udo Java - Expression Evaluation](https://udojava.com/2012/12/16/java-expression-parser-evaluator/)
+* [Maven](https://www.in28minutes.com/maven-tutorial-for-beginners)
 * [StringUtils](https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringUtils.html)

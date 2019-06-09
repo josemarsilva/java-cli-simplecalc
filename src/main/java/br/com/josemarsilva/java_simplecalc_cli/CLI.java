@@ -14,7 +14,7 @@ public class CLI {
 	/*
 	 * private final message constants ...
 	 */
-	private static final String JAVASIMPLECALC= new String("java_simplecalc_cli [options] [expression]\n" 
+	private static final String JAVASIMPLECALC= new String("java-simplecalc-cli [options] [expression]\n" 
 			+ "Java Simple Calculator Command Line - v.2019.06.08\n"
 			+ "https://github.com/josemarsilva/java-simplecalc-cli\n"
 			+ "Expression:\n"
