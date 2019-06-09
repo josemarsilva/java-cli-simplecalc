@@ -14,12 +14,12 @@ This is repository of the project **java-simplecalc-cli**.
 
 ### 2.2. Deploy Diagram ###
 
-![DeployDiagram-Context.png](./doc/DeployDiagramDiagram-Context.png) 
+![DeployDiagram-Context.png](./doc/DeployDiagram-Context.png) 
 
 
 ### 2.3. Packages and Class Class Diagram ###
 
-![ClassDiagram-Context.png](./doc/ClassDiagramDiagram-Context.png) 
+![ClassDiagram-Context.png](./doc/ClassDiagram-Context.png) 
 
 
 ## 3. Project ##
