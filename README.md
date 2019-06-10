@@ -70,13 +70,22 @@ C:\..\java-simplecalc-cli> mvn clean compile package assembly:single
 
 ### 3.6. Guide for Demonstration
 
-The following command line runs some demonstrations examples
+Some demonstrations examples:
 
+* Evaluate expression: `1 + 1 = 2`
+   
 ```bat
-C:\..\java-simplecalc-cli> REM O resultado da expressão 1 + 2 * 3 / 3 = 2
-C:\..\java-simplecalc-cli> java -jar .\target\java-simplecalc-cli-jar-with-dependencies 1 + 2 * 3 / 3
+C:\..\java-simplecalc-cli> java -jar .\target\java-simplecalc-cli-jar-with-dependencies 1 + 1
 2 
 ```
+
+* Evaluate expression: `1 + 2 * 3 / 4 = 2.5`. We need to envolve with quotes " because of `*`
+
+```bat
+C:\..\java-simplecalc-cli> java -jar target\java-simplecalc-cli-jar-with-dependencies.jar "1 + 2 * 3 / 4"
+2.5
+```
+
 
 
 ### 3.7. Patterns, Standard, Conventions and Best Practices

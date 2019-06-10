@@ -1,3 +1,8 @@
+/**
+ * @author Josemar Silva
+ * @see https://github.com/josemarsilva/java-simplecalc-cli
+*/
+
 package br.com.josemarsilva.java_simplecalc_cli;
 
 import java.util.List;
