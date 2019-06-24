@@ -36,6 +36,15 @@ Consulte todos detalhes da [estratégia de branches e workflow](https://github.c
 * Java JDK 1.8 (jar file includes runnable)
 * Eclipse (version Neon recommended)
 * Apache Maven 3.6 (recommended > 3.3)
+* `pom.xml`:
+  * properties:
+    * `<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>`
+  * dependencies:
+    * https://mvnrepository.com/artifact/commons-cli/commons-cli
+	* https://mvnrepository.com/artifact/com.udojava/EvalEx
+  * build:
+    * `<finalName>java-simplecalc-cli</finalName>`
+	* `<plugin> <artifactId>maven-assembly-plugin</artifactId> </plugin>`
 
 
 ### 3.2. Guide for Developers
